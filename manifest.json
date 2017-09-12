@@ -1,0 +1,19 @@
+{
+    "name": "wallcat",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Get beautiful images with quotes and weather whenever you open a new tab.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_security_policy": "script-src 'self' https://api.forismatic.com; object-src 'self'",
+
+    "chrome_url_overrides": {
+        "newtab": "override.html"
+    },
+
+    "permissions": ["storage","unlimitedStorage","geolocation"]
+}
+

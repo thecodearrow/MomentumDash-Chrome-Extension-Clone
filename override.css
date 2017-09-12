@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.dateTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+    z-index:1;
+}
+
+#date{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 5em;
+    margin-top: 0;
+    z-index:1;
+}
+
+#quoteblock{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 5vh;
+    margin-top: 0;
+    z-index:1;
+}
+
+ #author{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-top: 0;
+    z-index:1;
+}
+
+#background-credits>a,#background-credits>span:nth-child(2), #background-credits>span:nth-child(2)>a{
+    color:white;
+}
+
+.credits{
+    position:absolute;
+    top:99vh;
+    transform:translateY(-100%);
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 250px;
+    line-height: 5em;
+    text-align: center;
+    color: white;
+}
+
+.weather{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top:1vh;
+    right:1vh;
+    width:15vh;
+    text-align: center;
+    color: white;
+}
+
+#weather-info{    
+    font-size: 1.2em;
+    margin-bottom: 0;
+    width:15vh;
+    color: white;
+}
+
+#weather-location{
+    font-size: 1.25em;
+    margin-top: 0;
+}
+
+.todoContainer{
+    position:absolute;
+    top:93vh;
+    transform:translateY(-100%);
+    left: 70vw;  
+    z-index:1;
+}
+
+.todoContainer .todo-toggle{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    float: right;
+    position:absolute;
+    left: 20vw;
+    z-index:1;
+} 
+
+.todoContainer .todoDiv{
+    display: none; 
+    z-index:1;
+} 
+
+#visibilty-box{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:100vmax;
+    background-color: black;
+    opacity:0.20;
+}
